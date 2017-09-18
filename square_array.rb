@@ -1,6 +1,7 @@
 def square_array(array)
+  n = 0
   array.each do |sqa|
-    sqa*sqa
+    array[n] = sqa*sqa
+    n+=1
   end
 end
-
